@@ -1,4 +1,4 @@
-# :1234:  Calculadora
+<h1 align=center> :1234:  Calculadora </h1>
 
 Calculadora que oferece operações básicas e avalia comandos imediatamente à medida que são inseridos. 
 
@@ -18,4 +18,5 @@ Calculadora que oferece operações básicas e avalia comandos imediatamente à 
 -   `Javascript`
 
 
-##  :tv:  [Tela](./src/tela.png) 
+##  :tv:  Tela
+![1](./src/tela.png) 
