@@ -7,12 +7,13 @@ on:
 
 jobs:
   deploy:
-    runs-on: windows-latest
+    Run-npm-on-Ubuntu:
+    runs-on: ubuntu-lasted
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v1
         with:
-          node-version: '14.x'
+          node-version: '14'
       - name: Build web-app
         run: |
           npm ci
