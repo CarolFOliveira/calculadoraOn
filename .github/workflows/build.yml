@@ -7,8 +7,10 @@ on:
 
 jobs:
   deploy:
+    Example-Actions-Job:
+    name: Exploring GitHub Actions
+    runs-on: self-hosted
     
-    runs-on: ubuntu-18.4
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v1
