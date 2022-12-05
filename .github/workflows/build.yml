@@ -7,9 +7,8 @@ on:
 
 jobs:
   deploy:
-    Example-Actions-Job:
-    name: Exploring GitHub Actions
-    runs-on: self-hosted
+    
+    runs-on: ubuntu-lastet
     
     steps:
       - uses: actions/checkout@v2
